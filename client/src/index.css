@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background-color:#222831;
+  background-image: 
+    radial-gradient(at 100% 0%, hsla(216,10%,24%,1) 0, transparent 70%); 
+}
+
+.gradient-bg-services {
+  background-color:#222831;
+  background-image: 
+    radial-gradient(at 0% 100%, hsla(216,26%,9%,1) 0, transparent 50%);
+}
+
+.gradient-bg-transactions {
+  background-color: #222831;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(216,26%,9%,1) 0, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(216,10%,24%,1) 0, transparent 60%); 
+}
+
+.gradient-bg-footer {
+  background-color: #222831;
+  background-image: 
+    radial-gradient(at 100% 0%, hsla(216,10%,24%,1) 0, transparent 60%); 
+}
+
+.blue-glassmorphism {
+  background: rgba(19, 32, 75, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(252, 252, 252, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(28, 70, 97, 0.925);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(28, 70, 97, 0.925);
+}
+
+.eth-card {
+  background-color:#8792C0;
+  background-image: 
+    radial-gradient(at 0% 0%, rgb(240, 195, 47) 0, transparent 50%),
+    radial-gradient(at 100% 100%, rgb(199, 199, 70) 0, transparent 60%); 
+
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(5,2%,100%,1) 0, transparent 53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
